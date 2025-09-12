@@ -1,0 +1,16 @@
+{
+  "name": "billing-system",
+  "version": "1.0.0",
+  "description": "MERN Stack Billing System",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && nodemon app.js",
+    "client": "cd frontend && npm start",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "concurrently": "^8.2.2"
+  }
+}

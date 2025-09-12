@@ -1,0 +1,124 @@
+/* Global Inter Font Styles */
+* {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 600;
+}
+
+/* Paragraphs and text */
+p, span, div, label, input, textarea, select, option {
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* Buttons */
+button {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 500;
+}
+
+/* Tables */
+table, th, td {
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* Form elements */
+input, textarea, select {
+  font-family: 'Inter', sans-serif !important;
+}
+
+/* Material-UI specific overrides */
+.MuiTypography-root {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.MuiButton-root {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+}
+
+.MuiTextField-root {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.MuiTableCell-root {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.MuiInputBase-root {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.MuiFormLabel-root {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.MuiMenuItem-root {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.MuiTab-root {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 500 !important;
+  text-transform: none !important;
+}
+
+.MuiAppBar-root {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.MuiDrawer-root {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.MuiListItem-root {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.MuiCard-root {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.MuiPaper-root {
+  font-family: 'Inter', sans-serif !important;
+}
+
+
+/* Additional font weights for Inter */
+.font-light {
+  font-weight: 300 !important;
+}
+
+.font-normal {
+  font-weight: 400 !important;
+}
+
+.font-medium {
+  font-weight: 500 !important;
+}
+
+.font-semibold {
+  font-weight: 600 !important;
+}
+
+.font-bold {
+  font-weight: 700 !important;
+}
+
+.font-extrabold {
+  font-weight: 800 !important;
+}
+
+.font-black {
+  font-weight: 900 !important;
+}
