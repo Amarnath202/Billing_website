@@ -172,6 +172,19 @@ REACT_APP_VERSION=1.0.0
 
 ### Running the Application
 
+#### Run the Application
+```bash
+# Backend
+cd backend
+npm install
+npm run dev
+
+# Frontend 
+cd frontend
+npm install
+npm start
+```
+
 #### Development Mode
 ```bash
 # Start both backend and frontend concurrently
@@ -183,18 +196,6 @@ npm run server
 
 # Frontend only
 npm run client
-```
-
-#### Production Mode
-```bash
-# Backend
-cd backend
-npm start
-
-# Frontend (build and serve)
-cd frontend
-npm run build
-# Serve the build folder with your preferred web server
 ```
 
 The application will be available at:
